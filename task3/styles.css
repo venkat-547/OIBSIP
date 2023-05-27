@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 50px;
+  background-image: url('temp.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div {
+  margin: 0 auto; /* Add this line */
+  text-align: center; /* Add this line */
+  margin-bottom: 50px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input {
+  width: 200px;
+  padding: 30px;
+ background-color: #ffffff51;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
