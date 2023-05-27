@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('instruments.jpg');
+    background-size: cover;
+    background-position: fill;
+    background-attachment:scroll;
+  }
+  
+  .header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    border: 2px solid  #f7a98f;
+    border-left-width: 0cqmax
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 10px;
+    border-top: #000000;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #f2f2f2; /* Change the color to your desired highlight color */
+  }
+  
+  nav a:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #f2f2f2; /* Change the color to your desired highlight color */
+    transition: width 0.3s;
+  }
+  
+  nav a:hover:after {
+    width: 100%;
+  }
+  
+  main {
+    padding: 20px;
+    background-color: hwb(0 40% 7% / 0.156); /* Adjust the opacity value (0.0 to 1.0) */
+  }
+  
+  h1 {
+    color: #fafafa;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+  }
+  
+  p {
+    color: #8b8b8b;
+    margin-bottom: 100px;
+  }
+  
+  .cta-button {
+    background-color: #df5426;
+    color: #d9d9d9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    color: #000000;
+    border-style:groove, rgb(247, 187, 103);
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #333333;
+  }
+  
+  footer {
+    background-color: #ffffffc8;
+    padding: 20px;
+    text-align: center;
+    color: #444444;
+  }
+  nav a:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #f2f2f2; 
+    transition: width 0.3s;
+  }
+  
+  nav a:hover:after {
+    width: 100%;
+  }
+  .nav-link:hover {
+    outline: 2px solid rgb(255, 255, 255);
+  }
+  
